@@ -1,933 +1,474 @@
-# Rime dictionary
-# encoding: utf-8
-#
-# Luna Pinyin Extended Dictionary(Chinese&English) - 明月拼音擴充詞庫（含西文的詞彙）
-#   瑾昀 <cokunhui@gmail.com>
-# 部署位置：
-# ~/.config/ibus/rime  (Linux)
-# ~/Library/Rime  (Mac OS)
-# %APPDATA%\Rime  (Windows)
-# 於重新部署後生效
-# no comment
-
----
-name: luna_pinyin.cn_en
-version: "2017.9.13"
+# Rime dictionary 100
+# encoding: utf-8 100
+# 100
+# 100
+# https://github.com/iDvel/rime-ice 100
+# ------- 中英混输词库 for 全拼 ------- 100
+# 由 others/cn_en.txt 自动生成 100
+# 编码前的  符号是为了防止英文方案拼写派生时派生出全大写字母（在 melt_eng.schema.yaml 中实现） 100
+# 示例：输入 txu 得到 T恤；输入 Txu 得到 T恤； 输入 TXU 则只会得到 TXU 100
+--- 
+name: cn_en
+version: "1" 
 sort: by_weight
 use_preset_vocabulary: true
-...
+... 
 
-AAC	aac
-AAX	aax
-AcFUN	acfun
-Adblock	adblock
-ADSL	adsl
-AFP	afp
-AGPS	agps
-AIFF	aiff
-AkelPad	akelpad
-AlBayan	albayan
-AMD	amd
-Amphetamine	amphetamine
-Android	android
-Annotable	annotable
-AnyConnect	anyconnect
-AnyDrop	anydrop
-AOL	aol
-APFS	apfs
-APFS	ge shi hua
-API	api
-Arduino	arduino
-Arial	arial
-ARP	arp
-aText	atext
-Athelas	athelas
-ATI	ati
-ATM	atm
-Automator	automator
-Auxo	auxo
-Axure	axure
-Ayuthaya	ayuthaya
-AZW	azw
-Bangla	bangla
-Baskerville	baskerville
-BBC	bbc
-BFR	bfr
-BigCaslon	bigcaslon
-BlackBerry	black berry
-BMP	bmp
-Bodoni	bodoni
-Brackets	brackets
-Bug	bug
-Calcbot	calcbot
-Calibre	calibre
-Calibri	calibri
-CATIA	catia
-CDMA	cdma
-CDN	cdn
-Cochin	cochin
-Cond	cond
-Copperplate	copperplate
-Corsiva	corsiva
-Cortana	cortana
-CPU	cpu
-Curio	curio
-Cydia	cydia
-Devanagari	devanagari
-DFU	dfu
-DHCP	dhcp
-Didot	didot
-Diumoo	diumoo
-DNS	dns
-DOC	doc
-DOCX	docx
-Drafts	drafts
-Droplr	droplr
-Due	due
-DVD	dvd
-DVI	dvi
-EarPods	earpods
-EdgePoint	edge	point
-EdgeSwitch	edge	switch
-eDRAM	edram
-EDXOR	edxor
-Emacs	emacs
-ePub	epub
-eSATA	esata
-Evernote	evernote
-ExFAT	exfat
-FALSE	false
-FAQ	faq
-Farah	farah
-Farisi	farisi
-FAT	fat
-Flickr	flickr
-Followers	followers
-FTP	ftp
-Futura	futura
-Gestimer	gestimer
-GHz	ghz
-GIF	gif
-GillSans	gillsans
-GIMP	gimp
-GitHub	github
-GLONASS	glonass
-Gmail	gmail
-Gneo	gneo
-Google	google
-GoPro	gopro
-GPS	gps
-GPU	gpu
-Graffle	graffle
-GRE	gre
-GSM	gsm
-GUI	gui
-Gujarati	gujarati
-Gurmukhi	gurmukhi
-Hangouts	hangouts
-HDMI	hdmi
-HDR	hdr
-Herculanum	herculanum
-HHKB	hhkb
-HIEF	hief
-HiRise	hirise
-HOSTS	hosts
-Houdini	houdini
-HSPA	hspa
-HTC	htc
-HTML	html
-HTTP	http
-HTTPS	https
-i i
-jEdit	jedit
-JOE	joe
-JPEG	jpeg
-Kailasa	kailasa
-Kefa	kefa
-Keka	keka
-Keycard	keycard
-KeyCue	keycue
-Kile	kile
-Kindle	kindle
-KMail	kmail
-Kodi	kodi
-Kokonor	kokonor
-Konqueror	konqueror
-Krita	krita
-Krungthep	krungthep
-Lacie	lacie
-LED	led
-Lexar	lexar
-Linux	linux
-Live Photo	live photo
-LTE	lte
-Luminari	luminari
-Mac	mac
-MacID	macid
-Manico	manico
-MaterialIcons	material icons
-MAYA	maya
-Mbps	mbps
-MediumItalic	mediumit
-Mextures	mextures
-MIPS	mips
-Mishafi	mishafi
-MitM	mitm
-MOBI	mobi
-Moke	moke
-Moom	moom
-Mountie	mountie
-Moves	moves
-Movist	movist
-Mozilla	mozilla
-MPlayer	mplayer
-MplayerX	mplayer
-Mshtakan	mshtakan
-mStand	mstand
-MTU	mtu
-Multi-Touch	multi touch
-Muna	muna
-Nadeem	nadeem
-Nano	nano
-NAS	nas
-NAT	nat
-NBA	nba
-NEdit	nedit
-Netpadd	netpadd
-NewPeninim	newpeninim
-NFC	nfc
-Niantic	niantic
-Noizio	noizio
-NTFS	ntfs
-Oculus	oculus
-OnyX	onyx
-Oriya	oriya
-OTA	ota
-Pages	pages
-Pastebot	pastebot
-Paw	paw
-PayPal	paypal
-PDF	pdf
-Picatext	picatext
-Pico	pico
-Pikachu	pikachu
-Pixave	pixave
-PNG	png
-POP	pop
-Potion	potion
-PPPoE	pppoe
-PPT	ppt
-PRC	prc
-Prisma	prisma
-Privoxy	privoxy
-Pro	pro
-Promotee	promotee
-Proxifier	proxifier
-PSP	psp
-PSPad	pspad
-PuTTY	putty
-PVC	pvc
-Quiver	quiver
-Raanana	raanana
-Radeon Pro	radeon pro
-Rails	rails
-Rdio	rdio
-Reeder	reeder
-Regulex	regulex
-Results	results
-RMB	rmb
-RSS	rss
-RTSP	rtsp
-Sana	sana
-Sathu	sathu
-Savoye	savoye
-Scapple	scapple
-SciTE	scite
-Scrivener	scrivener
-SDK	sdk
-Seravek	seravek
-Shree	shree
-Sigil	sigil
-Silom	silom
-Sinhala	sinhala
-Skia	skia
-Skype	skype
-Slicy	slicy
-Smartisan	smartisan
-SMB	smb
-SMTP	smtp
-Snagit	snagit
-SOCKS	socks
-Sonos	sonos
-SPDY	spdy
-Spendee	spendee
-Spotify	spotify
-Spss	spss
-sRGB	srgb
-SSD	ssd
-SSH	ssh
-SSID	ssid
-STM	stm
-Tag	tag
-Tags	tags
-Tahoma	tahoma
-TCP	tcp
-Things	things
-Trattatello	trattatello
-Trello	trello
-TRUE	true
-TTL	ttl
-Tumblr	tumblr
-TUN	tun
-Twitter	twitter
-Typora	typora
-UAP	uap
-uBlock	ublock
-UDP	udp
-UMTS	umts
-UniFi	unifi
-Unix	unix
-URL	url
-USB	usb
-VanDyke	vandyke
-Verdana	verdana
-Versions	versions
-Vesper	vesper
-VGA	vga
-Vim	vim
-Visio	visio
-VLC	vlc
-VMware	vmware
-VoLTE	volte
-VPN	vpn
-VR	vr
-Waltr	waltr
-Waseem	waseem
-WCDMA	wcdma
-Webdings	webdings
-WEP	wep
-Wiki	wiki
-Winamp	winamp
-Windows	windows
-WINS	wins
-WinSCP	winscp
-WLAN	wlan
-WMP	wmp
-WPA	wpa
-WPS	wps
-WWDC	wwdc
-Xbmc	xbmc
-Xbox	xbox
-Xee	xee
-Xeon	xeon
-XMind	xmind
-xScope	xscope
-yEd	yed
-Yudit	yudit
-Zapfino	zapfino
-ZEALER	zealer
-Zowie	zowie
-After Effects	after effects
-Adobe Illustrator	adobe illustrator
-Adobe Photoshop	adobe photoshop
-Afterlight	after light
-Air Display	air display
-Air Video	air video
-AirDroid	air droid
-AirDrop	air drop
-airFiber	air fiber
-Airmail	air mail
-airMAX	air max
-AirPlay	air play
-AirPods	air pods
-AirPort	air port
-AirPort Express	air port
-AirPort Express	air port express
-AirPort Extreme	air port
-AirPort Extreme	air port extreme
-AirPower	air power
-AirPrint	air print
-airPrism	air prism
-AirServer	air server
-Al Nile	alnile
-Al Tarikh	altarikh
-Alphabet	alpha bet
-Amazon Cloud Drive	amazon cloud drive
-Amazon Fire	amazon fire
-AmazonBasics	amazon basics
-AMOLED	amoled
-AmpliFi	amplifi
-Andale Mono	andale mono
-Animoji	ani moji
-Ansible	an sible
-App Store	app store
-AppFridays	app fridays
-Apple Beta	apple beta
-Apple Chancery	apple chancery
-Apple Configurator	apple configurator
-Apple Developer	apple developer
-Apple EarPods	apple earpods
-Apple File System	apple file system
-Apple ID	apple id
-Apple Lossless	apple lossless
-Apple Music	apple music
-Apple News	apple news
-Apple Pay	apple pay
-Apple Pencil	apple pencil
-Apple Remote	apple Remote
-Apple Store	apple store
-Apple TV	apple tv
-Apple TV 4K	apple tv
-Apple Watch	apple watch
-AppleCare	apple care
-AppleCare+	apple care
-AppleMyungjo	apple myungjo
-AppleScript	apple script
-AppleTalk	apple talk
-AppShopper	app shopper
-AptBackup	apt backup
-Aria2	ariaer
-Aria2GUI	ariaergui
-Arial Black	arial black
-Arial Narrow	arial narrow
-Arial Rounded	arial rounded
-Arial Unicode	arial unicode
-ATM 機	atm ji
-AutoCAD	auto cad
-B 淋巴細胞	bi lin ba xi bao
-B 細胞	bi xi bao
-Baidu	bai du
-BBEdit	bb edit
-Better Rename	better rename
-BetterSnap Tool	better snap tool
-BetterTouchTool	better touch tool
-BetterZip	better zip
-Beyond Compare	beyond compare
-Bitcron	bit cron
-BitDefender	bit defender
-BitLocker	bit locker
-Blizzard	bli zzard
-Bluetooth	blue tooth
-BoldItalic	bold italic
-Bose soundlink	bose soundlink
-Bradley Hand	bradley hand
-Brush Script	brush script
-BundleHunt	bundle hunt
-Bypass	by pass
-Byword	by word
-C++	cpp
-CallMaster	call master
-CarPlay	car play
-CCTV	cctv
-Chalkboard	chalk board
-Chalkduster	chalk duster
-CheatSheet	cheat sheet
-ChemBioDraw	chem bio draw
-CIA	cia
-Cisco IPSec	cisco ipsec
-CloudApp	cloud app
-CloudMagic	cloud magic
-cnBeta	cnbeta
-CNN	cnn
-Cocoa Touch	cocoa touch
-CodeBox	code box
-CodeKit	code kit
-CodeRunner	code runner
-CoffeeScript	coffee script
-ColorSchemer	color schemer
-ColorSnapper	color snapper
-Combat Power	combat power
-Comic Sans MS	comic sans ms
-ConTEXT	con text
-Control Center	control center
-CorelDRAW	corel draw
-Cornerstone	corner stone
-Courier New	courier new
-Crimson Editor	crimson editor
-CSS	css
-CSS3	css san
-D-Link	dlink
-DailyCost	daily cost
-DaisyDisk	daisy disk
-Dashboard	dash board
-Datagraph	data graph
-DataMeter	data meter
-Day One	day one
-DDoS	ddos
-Developer Preview	developer preview
-DEVONthink	devon think
-DevOps	devops
-DIN Alternate	din alternate
-DIN Condensed	din condensed
-Disk Utility	disk utility
-DiskMaker	disk maker
-DisplayPort	display port
-Diwan Kufi	diwan ku fi
-Diwan Thuluth	diwan thuluth
-DJI	da jiang
-DJI	dji
-DNA	dna
-Double Tour	double tour
-Dreammail	dream mail
-Dribbble	dribbble
-Dropbox	drop box
-Dropshare	drop share
-Dropzone	drop zone
-DynamicLyrics	dynamic lyrics
-Dyson	dyson
-Easytime	easy time
-EdgeRouter	edge router
-EditPad lite	editpad lite
-EditPlus	edit plus
-El Capitan	el capitan
-Emmet	emmet
-Emoji	emoji
-EuphemiaCAS	euphemia cas
-EV-DO	evdo
-ExFAT	ge shi hua
-ExtraLight	extra light
-Face ID	face id
-Facebook	face book
-FaceTime	face time
-Fantastical	fan tastical
-FAT32	fat
-FAT32	ge shi hua
-FIFA	fifa
-FileBrowser	file browser
-FileVault	file vault
-Final Cut Pro	final cut pro
-FineReader	fine reader
-Firefox	fire fox
-FireWire	fire wire
-Flipboard	flip board
-Focus Pixels	focus pixels
-FontAwesome	font awesome
-Foobar2000	foobar
-Force Touch	force touch
-Forecast	fore cast
-ForkLift	fork lift
-Foxmail	fox mail
-Frank DeLoupe	frank deloupe
-Fura Code	fura code
-Fura Mono	fura mono
-Fusion Drive	fusion drive
-Game Center	game center
-GarageBand	garage band
-GBoard	gboard
-Geekbench	geek bench
-Genius Bar	genius bar
-GFW	gfw
-GhostNote	ghost note
-GhostTile	ghost tile
-Gif Brewery	gif brewery
-GitHub Gist	github
-Gitter	gitter
-GNU	gnu
-Go2Shell	go er shell
-Go2Shell	go tu shell
-GoagentX	go agentx
-GOM Player	gom player
-GoodReader	good reader
-Google	gu ge
-Google Chrome	google chrome
-Google Docs	google docs
-Google Drive	google drive
-Google Keep	google keep
-Google Maps	google maps
-Google Music	google music
-Google Play	google Play
-Google Sheets	google sheets
-Google Slides	google slides
-Great Ball	great ball
-GSW	gsw
-HanaMin	hana min
-Handoff	hang off
-HE-AAC	he aac
-HeavyItalic	heavy italic
-Hermès	hermes
-HEVC	hevc
-Hoefler Text	hoefler text
-HoloLens	holo lens
-Homebrew	home brew
-HomeKit	home kit
-HomePod	home pod
-HTC Vive	htc
-HTML5	html wu
-Hyper Potion	hyper potion
-J2EE	jtee
-Jailbreak	jail break
-JavaScript	java script
-Jay	jay
-JetBrains	jet brains
-JS Blocker	js blocker
-JSLint	js lint
-Just Mobile	just mobile
-K 歌	kei ge
-Kaleidoscope	kaleido scope
-Karabiner	kara biner
-Keyboard Maestro	keyboard maestro
-Kindle Format	kindle
-Kindle Oasis	kindle
-Kindle Oasis	kindle oasis
-Kindle Paperwhite	kindle
-Kindle Paperwhite	kindle paper white
-Kindle Unlimited	kindle
-Kindle Unlimited	kindle unlimited
-Kindle Voyage	kindle
-Kindle Voyage	kindle voyage
-Klib	klib
-L2TP	lertp
-LaTeXian	la te xian
-Launch Center Pro	launch center pro
-Launchpad	launch pad
-LibreOffice	libre office
-LightItalic	light italic
-Lightning	light ning
-LiteBeam	lite beam
-Little Snitch	little snitch
-Live Cams Pro	live cams pro
-LiveReload	live reload
-Living Earth Clock	living earth clock
-Local Client	local client
-LockScreen	lock screen
-Lucky Egg	lucky egg
-Lure Module	lure module
-MAC 地址	mac di zhi
-Mac App Store	mac app store
-Mac mini	mac mini
-Mac Pro	mac pro
-Mac Rumors	mac rumors
-MacAppDeals	mac app deals
-MacBook	mac book
-MacBook Air	macbook
-MacBook Air	macbook air
-MacBook Pro	macbook
-MacBook Pro	macbook pro
-macOS	macos
-macOS Mojave	macos
-macOS High Sierra	macos
-macOS Sierra	macos
-MacTips	mac tips
-Mactracker	mac tracker
-MacUpdate Desktop	mac update desktop
-Mad Catz	mad catz
-Magic Keyboard	magic keyboard
-Magic Mouse	magic mouse
-Magic Mouse 2	magic mouse
-Magic Trackpad	magic trackpad
-Magic Trackpad 2	magic trackpad
-MagSafe	mag safe
-Mailbox	mail box
-MailTags	mail tags
-MAMP PRO	mamp pro
-MarkDown	mark down
-MarkEditor	mark editor
-MarsEdit	mars edit
-Mathtype	math type
-MarginNote	margin note
-Mercury Browser Pro	mercury browser pro
-Metapad	meta pad
-Memoji	me moji
-Micro SD	micro sd
-Micro-SIM	micro sim
-Microsoft	micro soft
-Microsoft Office	microsoft office
-Sans Serif	sans serif
-Virtual PC	virtual pc
-Microsoft Word	microsoft word
-MindNode	mind node
-Mini DisplayPort	mini display port
-Mishafi Gold	mishafi gold
-Mission Control	mission control
-Mobile Mouse	mobile mouse
-Money Monitor	money monitor
-MoneyWiz	money wiz
-MTV	mtv
-Multi-Touch	multi touch
-MyriadPro	myriad pro
-myTV SUPER	mytv
-Nano-SIM	nano sim
-NanoBeam	nano beam
-NeoeEdit	neoe edit
-NetBIOS	net bios
-Netflix	net flix
-Niantic	niantic
-Nikon	ni kang
-Nikon	ni kon
-Notability	not ability
-Notepad	note pad
-Notepad++	note pad
-NoteTab	note tab
-nPlayer	nplayer
-NTFS	ge shi hua
-NuPro	nu pro
-nvALT	nv alt
-Nvidia	nv idia
-Objective-C	objc
-Objective-C	objective
-Oculus Rift	oculus
-Oculus VR	oculus
-OfficeSuite	office suite
-Olympics	olymipcs
-OmmWriter	omm writer
-OmniFocus	omni focus
-OmniGraffle	omni graffle
-OmniOutliner	omni outliner
-OmniPlan	omni plan
-OneDrive	one drive
-OneNote	one note
-OOP	oop
-OpenVPN	open vpn
-Oracle Database	oracle database
-OS X	osx
-OS X Server	osx
-OS X Server	osx server
-Outlook Express	outlook express
-PaintCode	paint code
-Parallels Desktop	parallels desktop
-PC-cillin	pc cillin
-Perl	perl
-Photo Booth	photo booth
-PhotoDesk	photo desk
-Photoshop	photo shop
-PhpStorm	php storm
-Ping Hei	ping hei
-PingWest	ping west
-Pixelmator	pixel mator
-Play by Play	play by play
-PlayStation	play station
-PlistEdit	plist edit
-Plurk	plurk
-Poké Ball	poke ball
-Pokémon	pokemon
-Pokémon GO	pokemon
-Pokémon GO	pokemon go
-Pokétop	poketop
-PopClip	pop clip
-POS 機	pos ji
-POWER UP	power up
-PowerBeam	power beam
-PowerPack	power pack
-PowerPoint	power point
-PragmataPro	pragmata pro
-PRAM	pram
-Proxy Group	proxy group
-PTMono	pt mono
-PTSans	pt sans
-PTSerif	pt serif
-Public Beta	public beta
-PyCharm	pycharm
-PDF Expert	pdf expert
-Q 幣	qq bi
-QCon	qcon
-QNAP NAS	qnap nas
-QQ 號	qq hao
-QQ 號碼	qq hao ma
-QQ 會員	qq hui yuan
-QQ 空間	qq kong jian
-QQ 羣	qq qun
-QQ 旋風	qq xuan feng
-QQ 郵箱	qq you xiang
-QuickTime Player	quick time player
-RAM	ram
-Razz Berry	razz berry
-Readability	read ability
-Readkit	read kit
-RealPlayer	real player
-RegularItalic	regular italic
-Remote Client	remote client
-RescueTime	rescue time
-Resilio Sync	resilio sync
-RexEdit	rex edit
-RightFont	right font
-Rime	zhong zhou yun
-RobotoSlab	roboto slab
-RocketDish	rocket dish
-ROM	rom
-Ruby on Rails	ror
-Ruby on Rails	ruby on rails
-RubyMine	ruby mine
-Runtastic Pro	run tastic pro
-Sabrent USB	sabrent usb
-Safari View Controller	safari view controller
-SaneDesk	sane desk
-SAP	sap
-Sauce Code Pro	sauce code pro
-Scala	scala
-Scrapbook	scrap book
-ScreenFloat	screen float
-ScreenFlow	screen flow
-Screens VNC	screens vnc
-SecureCRT	secure crt
-Semibold	semi bold
-SemiboldItalic	semi bold italic
-SF-UI-Display	sf ui display
-SF-UI-Text	sf ui text
-SFMono	sf mono
-Shadowsocks	shadow socks
-SignPainter	sign painter
-SIM	sim
-eSIM	esim
-SIM 卡	sim ka
-SimHei	sim hei
-Simplenote	simple note
-SimpleText	simple text
-SimSun	sim sun
-Single Tour	single tour
-Siri	siri
-Siri Remote	siri remote
-Sleep Cycle	sleep cycle
-Slide Over	slide over
-Smart Connector	smart connector
-Smart Cover	smart cover
-Smart Keyboard	smart keyboard
-Smartisan OS	smartisan
-Snapselect	snap select
-SnellRoundhand	snell round hand
-Softimage	soft image
-Software Development Kit	software development kit
-Solar Walk	solar walk
-Source Insight	source insight
-SourceHanSans	source han sans
-SourceTree	source tree
-Sparkbox	spark box
-Specialist	specia list
-Speedtest	speed test
-Splashtop	splash top
-Split View	split view 
-Spotlight	spot light
-SQL Server	sql server
-Squirrel	shu xu guan
-SSLEdge	ssl edge
-StackSocial	stack social
-Statistics	stati stics
-Steve Jobs Theater	steve jobs theater
-StockWatch	stock watch
-Sublime Text	sublime text
-Super Potion	super potion
-SuperClarendon	super clarendon
-Surge Mac	surge
-Surge Mac	surge mac
-Swift Playgrounds	swift playgrounds
-SwipeSelection	swipe selection
-Symbian	sym bian
-Symbol	sym bol
-Sync for Firefox	sync for firefox
-Synology NAS	synology nas
-T 恤	ti xu
-T 恤衫	ti xu shan
-Taobao	tao bao
-Taptic Engine	taptic engine
-TCP/IP	tcp ip
-TeamViewer	team viewer
-TechWeb	tech web
-TED	ted
-TeeVee	tee vee
-Telegram	tele gram
-Tencent	ten cent
-TestFlight	test flight
-Texshop	tex shop
-Textastic	text astic
-TextExpander	text expander
-TextGrabber	text grabber
-TextMate	text mate
-TextPad	text pad
-TextWrangler	text wrangler
-The SemWare Editor	the semware editor
-The Unarchiver	the unarchiver
-Thunderbird	thunder bird
-Thunderbolt	thunder bolt
-Thunderbolt Bridge	thunderbolt bridge
-Thunderbolt Ethernet	thunderbolt ethernet
-Time Capsule	time capsule
-Time Machine	time machine
-Times New Roman	times new roman
-TinkerTool	tinker tool
-Touch ID	touch id
-TP-LINK	tp link
-Trebuchet MS	trebuchet ms
-True Tone	true tone
-Tupac	tpac
-Tupac	tupac
-Turbo Boost	turbo boost
-Tuxera Disk Manager	tuxera
-Tuxera NTFS	tuxera
-tvOS	tv os
-Tweetbot	tweet bot
-Twist Plus	twist plus
-Ubuntu	ubuntu
-UIM 卡	uim ka
-Ultra Ball	ultra ball
-UltraEdit	ultra edit
-Ultralight	ultra light
-Ultrathin	ultra thin
-UniFi Security Gateway	unifi
-UniFi Switch	unifi
-URL Scheme	url scheme
-USB-A	usb a
-USB-C	usb c
-USIM 卡	usim ka
-UUcall	uu call
-V2EX	vtex
-Vimeo	vimeo
-VirtualBox	virtual box
-VPS	vps
-Warcraft	warcraft
-Warriors	warriors
-watchOS	watch os
-WeChat	we chat
-Weibo	wei bo
-WebRTC	web rtc
-WhatsApp	whats app
-Whispersync	whisper sync
-Wi-Fi	wai fai
-Wi-Fi	wi fi
-WiFi	wifi
-WiFi Explorer	wifi explorer
-WiFi Scanner	wifi scanner
-Wikipedia	wiki pedia
-Wikipedia	wikipedia
-Window Tidy	window tidy
-Windows Live Mail	windows live
-Windows Live Mail	windows live mail
-Windows Live Messenger	windows live
-Windows Live Messenger	windows live messenger
-Windows Mobile	windows mobile
-Windows Phone	windows phone
-Wireless Keyboard	wireless keyboard
-Withings Thermo	withings thermo
-WLAN + Cellular	wlan jia
-Wordpress	word press
-WordStar	word star
-Workflow	work flow
-WorkFlowy	work flowy
-WORKGROUP	work group
-World of Warcraft	wow
-World Wide Web	www
-WPA2	wpa
-WPS Office	wps office
-Writer Pro	writer pro
-WWW	www
-WWYD	wwyd
-X-Ray	xray
-Xbox One	xbox
-Xcode	xcode
-XcodeDigits	xcode digits
-XtraFinder	xtra finder
-Youku	you ku
-YouTube	you tube
-YouTube	yo tube
-Yummy FTP	yummy ftp
-ZeroNet	zero net
-Zhihu	zhi hu
-β 粒子	bei ta li zi
-β 射線	bei ta she xian
-γ 刀	ga ma dao
-γ 射線	ga ma she xian
-	apple
- MUSIC	apple
- MUSIC	apple music
- PAY	apple
- PAY	apple pay
- tv 4K	apple tv
- WATCH	apple watch
+X光	X guang  100
+X光片	Xguangpian 100
+X射线	Xshexian 100
+T恤	Txu 100
+T恤衫	Txushan 100
+AD钙奶	ADgainai 100
+UU加速器	UUjiasuqi 100
+Cinity厅	Cinityting 100
+Eul的神圣法杖	Euldeshenshengfazhang 100
+A杖	Azhang 100
+红Buff	hongBuff 100
+蓝Buff	lanBuff 100
+老Baby	laoBaby 100
+小Baby	xiaoBaby 100
+艾AA	aiAA 100
+炒CP	chaoCP 100
+嗑CP	keCP 100
+U盘	Upan 100
+B站	Bzhan 100
+V站	Vzhan 100
+P站	Pzhan 100
+大V	daV 100
+Q币	Qbi 100
+QQ号	QQhao 100
+QQ号码	QQhaoma 100
+QQ空间	QQkongjian 100
+QQ群	QQqun 100
+QQ邮箱	QQyouxiang 100
+QQ音乐	QQyinyue 100
+QQ拼音	QQpinyin 100
+QQ会员	QQhuiyuan 100
+QQ好友	QQhaoyou 100
+QQ输入法	QQshurufa 100
+Dock栏	Docklan 100
+阿Q精神	aQjingshen 100
+Win版	Winban 100
+Win版本	Winbanben 100
+Windows版	Windowsban 100
+Windows版本	Windowsbanben 100
+Mac版	Macban 100
+Mac版本	Macbanben 100
+macOS版	macOSban 100
+macOS版本	macOSbanben 100
+iOS版	iOSban 100
+iOS版本	iOSbanben 100
+Android版	Androidban 100
+Android版本	Androidbanben 100
+Web版	Webban 100
+Web版本	Webbanben 100
+PC端	PCduan 100
+Win端	Winduan 100
+Windows端	Windowsduan 100
+Mac端	Macduan 100
+macOS端	macOSduan 100
+Web端	Webduan 100
+iOS端	iOSduan 100
+Android端	Androidduan 100
+e招贷	ezhaodai 100
+G胖	Gpang 100
+Up主	Upzhu 100
+BOSS直聘	BOSSzhipin 100
+P社	Pshe 100
+V社	Vshe 100
+Go语言	Goyuyan 100
+维生素A	weishengsuA 100
+维生素B	weishengsuB 100
+维生素C	weishengsuC 100
+维生素D	weishengsuD 100
+维生素E	weishengsuE 100
+维生素K	weishengsuK 100
+维A	weiA 100
+维B	weiB 100
+维C	weiC 100
+维D	weiD 100
+维E	weiE 100
+维K	weiK 100
+维E乳	weiEru 100
+维生素E乳	weishengsuEru 100
+阿Q	aQ 100
+阿Q正传	aQzhengzhuan 100
+单边z变换	danbianzbianhuan 100
+逗B	douB 100
+哆啦A梦	duolaAmeng 100
+二B	erB 100
+卡拉OK	kalaOK 100
+牛B	niuB 100
+三K党	sanKdang 100
+傻B	shaB 100
+傻X	shaX 100
+智能ABC	zhinengABC 100
+智能ABC双拼	zhinengABCshuangpin 100
+智能ABC双拼方案	zhinengABCshuangpinfangan 100
+智能ABC输入法	zhinengABCshurufa 100
+装B	zhuangB 100
+A股	Agu 100
+B股	Bgu 100
+H股	Hgu 100
+N股	Ngu 100
+S股	Sgu 100
+A盘	Apan 100
+A片	Apian 100
+AA制	AAzhi 100
+ATM机	ATMji 100
+B超	Bchao 100
+B淋巴细胞	Blinbaxibao 100
+B盘	Bpan 100
+B细胞	Bxibao 100
+C盘	Cpan 100
+C语言	Cyuyan 100
+D盘	Dpan 100
+E盘	Epan 100
+F盘	Fpan 100
+G点	Gdian 100
+G盘	Gpan 100
+IP地址	IPdizhi 100
+IP电话	IPdianhua 100
+IP卡	IPka 100
+J盘	Jpan 100
+K宝	Kbao 100
+K粉	Kfen 100
+K歌	Kge 100
+K歌王	Kgewang 100
+POS机	POSji 100
+SIM卡	SIMka 100
+T淋巴细胞	Tlinbaxibao 100
+T细胞	Txibao 100
+T型台	Txingtai 100
+U盾	Udun 100
+S形	Sxing 100
+U形	Uxing 100
+U形管	Uxingguan 100
+UIM卡	UIMka 100
+USIM卡	USIMka 100
+X刀	Xdao 100
+X染色体	Xranseti 100
+Y染色体	Yranseti 100
+z变换	zbianhuan 100
+z逆变换	znibianhuan 100
+D之国	Dzhiguo 100
+D之一族	Dzhiyizu 100
+Beta版	Betaban 100
+Beta版本	Betabanben 100
+AV女优	AVnvyou 100
+X战警	Xzhanjing 100
+YY语音	YYyuyin 100
+A4纸	A4zhi 100
+A4腰	A4yao 100
+N多	Nduo 100
+N多个	Nduoge 100
+N次	Nci 100
+N遍	Nbian 100
+蒙奇·D·路飞	mengqiDlufei 100
+蒙奇·D·龙	mengqiDlong 100
+乔治·R·R·马丁	qiaozhiRRmading 100
+哥尔·D·罗杰	geerDluojie 100
+马歇尔·D·蒂奇	maxieerDdiqi 100
+X·德雷克	Xdeleike 100
+蒙奇·D·卡普	mengqiDkapu 100
+波特卡斯·D·艾斯	botekasiDaisi 100
+VIP中P	VIPzhongP 100
+QQ秀	QQxiu 100
+Big胆	Bigdan 100
+我叫MT	wojiaoMT 100
+谜拟Q	miniQ 100
+多边兽Z	duobianshouZ 100
+藤子·F·不二雄	tengziFbuerxiong 100
+PC版	PCban 100
+PC版本	PCbanben 100
+A塔	Ata 100
+平A	pingA 100
+立Flag	liFlag 100
+C罗	Cluo 100
+IE浏览器	IEliulanqi 100
+A壳	Ake 100
+B壳	Bke 100
+C壳	Cke 100
+D壳	Dke 100
+A面	Amian 100
+B面	Bmian 100
+C面	Cmian 100
+D面	Dmian 100
+Server酱	Serverjiang 100
+P图	Ptu 100
+P个图	Pgetu 100
+P一下	Pyixia 100
+芭比Q	babiQ 100
+芭比Q了	babiQle 100
+QQ堂	QQtang 100
+PIN码	PINma 100
+PUK码	PUKma 100
+关底BOSS	guandiBOSS 100
+AA吧	AAba 100
+喊cut	hancut 100
+ASCII码	ASCIIma 100
+Go圣经	Goshengjing 100
+江南Style	jiangnanStyle 100
+头文字D	touwenziD 100
+三无Marblue	sanwuMarblue 100
+A罩杯	Azhaobei 100
+B罩杯	Bzhaobei 100
+C罩杯	Czhaobei 100
+D罩杯	Dzhaobei 100
+E罩杯	Ezhaobei 100
+F罩杯	Fzhaobei 100
+G罩杯	Gzhaobei 100
+H罩杯	Hzhaobei 100
+A罩	Azhao 100
+B罩	Bzhao 100
+C罩	Czhao 100
+D罩	Dzhao 100
+E罩	Ezhao 100
+F罩	Fzhao 100
+G罩	Gzhao 100
+H罩	Hzhao 100
+A杯	Abei 100
+B杯	Bbei 100
+C杯	Cbei 100
+D杯	Dbei 100
+E杯	Ebei 100
+F杯	Fbei 100
+G杯	Gbei 100
+H杯	Hbei 100
+TV版	TVban 100
+TV版本	TVbanben 100
+芒果TV	mangguoTV 100
+V字仇杀队	Vzichoushadui 100
+V怪客	Vguaike 100
+V煞	Vsha 100
+Q弹	Qtan 100
+Steam云	Steamyun 100
+M系列	Mxilie 100
+阿Sir	aSir 100
+Pro版	Proban 100
+Pro版本	Probanben 100
+Lite版	Liteban 100
+Lite版本	Litebanben 100
+X教授	Xjiaoshou 100
+Papi酱	Papijiang 100
+MAC地址	MACdizhi 100
+DNS劫持	DNSjiechi 100
+DNS污染	DNSwuran 100
+OK了	OKle 100
+OK啦	OKla 100
+OK啊	OKa 100
+我OK啊	woOKa 100
+OK了吗	OKlema 100
+腾讯QQ	tengxunQQ 100
+公网IP	gongwangIP 100
+Web开发	Webkaifa 100
+圈X	quanX 100
+Switch版	Switchban 100
+Switch版本	Switchbanben 100
+A型血	Axingxue 100
+A血型	Axuexing 100
+B型血	Bxingxue 100
+B血型	Bxuexing 100
+AB型	ABxing 100
+AB型血	ABxingxue 100
+AB血型	ABxuexing 100
+O型	Oxing 100
+O型血	Oxingxue 100
+O血型	Oxuexing 100
+IT界	ITjie 100
+Fn键	Fnjian 100
+Cmd键	Cmdjian 100
+Command键	Commandjian 100
+Ctrl键	Ctrljian 100
+Control键	Controljian 100
+Opt键	Optjian 100
+Option键	Optionjian 100
+Shift键	Shiftjian 100
+Tab键	Tabjian 100
+Caps键	Capsjian 100
+CapsLock键	CapsLockjian 100
+Return键	Returnjian 100
+Enter键	Enterjian 100
+Space键	Spacejian 100
+Backspace键	Backspacejian 100
+Del键	Deljian 100
+Delete键	Deletejian 100
+Esc键	Escjian 100
+Eject键	Ejectjian 100
+J·K·罗琳	JKluolin 100
+周刊少年Jump	zhoukanshaonianJump 100
+ICP备案	ICPbeian 100
+啥bug	shabug 100
+有bug	youbug 100
+没bug	meibug 100
+没有bug	meiyoubug 100
+卡bug	kabug 100
+提bug	tibug 100
+写bug	xiebug 100
+改bug	gaibug 100
+查bug	chabug 100
+找bug	zhaobug 100
+J·R·R·托尔金	JRRtuoerjin 100
+异维A酸	yiweiAsuan 100
+互fo	hufo 100
+减CD	jianCD 100
+随身Wi-Fi	suishenWiFi 100
+U型锁	Uxingsuo 100
+Go程	Gocheng 100
+TG群	TGqun 100
+Telegram群	Telegramqun 100
+Wi-Fi密码	WiFimima 100
+DNA检测	DNAjiance 100
+A级	Aji 100
+B级	Bji 100
+C级	Cji 100
+D级	Dji 100
+S级	Sji 100
+拍CT	paiCT 100
+CT检查	CTjiancha 100
+PVC管	PVCguan 100
+DoS攻击	DoSgongji 100
+DDoS攻击	DDoSgongji 100
+N卡	Nka 100
+A卡	Aka 100
+M码	Mma 100
+S码	Sma 100
+L码	Lma 100
+Q我	Qwo 100
+R级	Rji 100
+A区	Aqu 100
+B区	Bqu 100
+C区	Cqu 100
+D区	Dqu 100
+E区	Equ 100
+F区	Fqu 100
+A组	Azu 100
+B组	Bzu 100
+C组	Czu 100
+D组	Dzu 100
+E组	Ezu 100
+F组	Fzu 100
+B哥	Bge 100
+Q版	Qban 100
+A班	Aban 100
+B班	Bban 100
+C班	Cban 100
+D班	Dban 100
+老K	laoK 100
+加Q	jiaQ 100
+加QQ	jiaQQ 100
+A座	Azuo 100
+B座	Bzuo 100
+C座	Czuo 100
+D座	Dzuo 100
+E座	Ezuo 100
+F座	Fzuo 100
+H版	Hban 100
+A口	Akou 100
+B口	Bkou 100
+C口	Ckou 100
+D口	Dkou 100
+E口	Ekou 100
+F口	Fkou 100
+A出口	Achukou 100
+B出口	Bchukou 100
+C出口	Cchukou 100
+D出口	Dchukou 100
+E出口	Echukou 100
+F出口	Fchukou 100
+A楼	Alou 100
+B楼	Blou 100
+C楼	Clou 100
+D楼	Dlou 100
+E楼	Elou 100
+F楼	Flou 100
+A型号	Axinghao 100
+B型号	Bxinghao 100
+C型号	Cxinghao 100
+D型号	Dxinghao 100
+E型号	Exinghao 100
+F型号	Fxinghao 100
+A型	Axing 100
+B型	Bxing 100
+C型	Cxing 100
+D型	Dxing 100
+E型	Exing 100
+F型	Fxing 100
+A款	Akuan 100
+B款	Bkuan 100
+C款	Ckuan 100
+D款	Dkuan 100
+E款	Ekuan 100
+F款	Fkuan 100
+A栋	Adong 100
+B栋	Bdong 100
+C栋	Cdong 100
+D栋	Ddong 100
+E栋	Edong 100
+F栋	Fdong 100
+X轴	Xzhou 100
+Y轴	Yzhou 100
+Z轴	Zzhou 100
+V领	Vling 100
+V字领	Vziling 100
+V字形	Vzixing 100
+IT业	ITye 100
+IT行业	IThangye 100
+K线	Kxian 100
+K线图	Kxiantu 100
+日K线	riKxian 100
+周K线	zhouKxian 100
+月K线	yueKxian 100
+T台	Ttai 100
+TF卡	TFka 100
+N年	Nnian 100
+A点	Adian 100
+B点	Bdian 100
+A屏	Aping 100
+OK吗	OKma 100
+OK嘛	OKma 100
+OK么	OKme 100
+OK呀	OKya 100
+OK不	OKbu 100
+BB机	BBji 100
+做B超	zuoBchao 100
+DJ版	DJban 100
+唱K	changK 100
+PK赛	PKsai 100
+A和B	AheB 100
+X和Y	XheY 100
+查IP	chaIP 100
+封IP	fengIP 100
+换IP	huanIP 100
+VIP卡	VIPka 100
+AAA级	AAAji 100
+第N次	diNci 100
+发EMS	faEMS 100
+DVD版	DVDban 100
+USB线	USBxian 100
+USB口	USBkou 100
+USB接口	USBjiekou 100
+X档案	Xdangan 100
+n次方	ncifang 100
+N多人	Nduoren 100
+S曲线	Squxian 100
+DJ舞曲	DJwuqu 100
+充Q币	chongQbi 100
+就OK	jiuOK 100
+不OK	buOK 100
+很OK	henOK 100
+特拉法尔加·D·瓦铁尔·罗	telafaerjiaDwatieerluo 100
+开party	kaiparty 100
+Chromium系	Chromiumxi 100
+Chrome系	Chromexi 100
+QQ游戏	QQyouxi 100
+QQ游戏大厅	QQyouxidating 100
+QQ音速	QQyinsu 100
+QQ飞车	QQfeiche 100
+QQ三国	QQsanguo 100
+4S店	4Sdian 100
+丰田AE86	fengtianAE86 100
+TF版	TFban 100
+TF版本	TFbanben 100
+O不OK	ObuOK 100

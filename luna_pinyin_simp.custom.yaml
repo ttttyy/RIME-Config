@@ -67,6 +67,7 @@ patch:
       - selector
       - navigator
       - express_editor
+      - lua_processor@select_character
     segmentors:
       - ascii_segmentor
       - matcher
@@ -78,9 +79,15 @@ patch:
       - table_translator@custom_phrase
       - reverse_lookup_translator
       - script_translator
+      - lua_translator@time_translator      # 时间
+      - lua_translator@date_translator      # 日期
+      - lua_translator@week_translator      # 星期
+      - lua_translator@lunar_translator     # 农历
     filters:
       - simplifier
       - uniquifier
       - cjk_minifier #過濾拼音輸入法中的罕用字
-  translator:
     enable_charset_filter: true #启用罕见字過濾
+  speller/algebra:
+    - derive/([ei])n$/$1ng/            # en => eng, in => ing
+    - derive/([ei])ng$/$1n/            # eng => en, ing => in
